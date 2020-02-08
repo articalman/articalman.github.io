@@ -14,7 +14,7 @@
     <meta name="keywords" content="记录学习生活的地方">
   
   <meta name="description" content="记录学习生活的地方">
-<meta name="keywords" content="谢泳之">
+<meta name="keywords" content="谢泳之，技术博客，hexo ，valine，算法，数据结构">
 <meta property="og:type" content="website">
 <meta property="og:title" content="泳之の博客">
 <meta property="og:url" content="http://yongzhi.top/index.html">
@@ -98,7 +98,9 @@
 	        
 				<li><a href="/archives/index.html" >归档</a></li>
 	        
-				<li><a href="/tags/随笔/" >随笔</a></li>
+				<li><a href="/tags" >标签</a></li>
+	        
+				<li><a href="/categories" >分类</a></li>
 	        
 			</ul>
 		</nav>
@@ -181,6 +183,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -205,11 +209,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
+					<li style="width: 25%"><a href="/archives/index.html">归档</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags">标签</a></li>
+		        
+					<li style="width: 25%"><a href="/categories">分类</a></li>
 		        
 				</ul>
 			</nav>
@@ -226,101 +232,6 @@
           </div>
           <div id="js-content" class="content-ll">
             
-
-  
-    <article id="post-文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2020/02/01/文章/" target="_blank">文章</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2020/02/01/文章/" class="archive-article-date">
-        <time datetime="2020-02-01T03:15:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-01</time>
-</a>
-
-  
-  
-    
-<div style="margin-top:10px;">
-  <span class="post-time">
-    <span class="post-meta-item-icon">
-      <!-- fonts.scss -->
-      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
-      <i class="icon-statistics"></i>
-      <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">0字</span>
-    </span>
-  </span>
-
-  <span class="post-time">
-    &nbsp; | &nbsp;
-    <span class="post-meta-item-icon">
-      <i class="icon-book icon"></i>
-      <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">1分</span>
-    </span>
-  </span>
-</div>
-
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2020/02/01/文章/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
 
   
     <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
@@ -377,6 +288,19 @@
 
     
 
+	
+    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+    <div class="widget-wrap">
+        <h3 class="widget-title">Tag Cloud</h3>
+        <div id="myCanvasContainer" class="widget tagcloud">
+            <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/a-Test/" style="font-size: 10px;">a Test</a>
+            </canvas>
+        </div>
+    </div>
+
+
     
 
     
@@ -384,12 +308,160 @@
   </div>
   <div class="article-info article-info-index">
     
+    <div class="article-pop-out tagcloud">
+      <i class="icon-tuding"></i>
+      <a class="article-tag-list-link color3">置顶</a>
+    </div>
     
     
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Testing</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">a Test</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/test//" class="article-tag-list-link color5">test</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
     
     <p class="article-more-link">
       <a class="article-more-a" href="/2019/09/09/test/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/02/01/文章/" target="_blank">文章</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/02/01/文章/" class="archive-article-date">
+        <time datetime="2020-02-01T03:15:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-01</time>
+</a>
+
+  
+  
+    
+<div style="margin-top:10px;">
+  <span class="post-time">
+    <span class="post-meta-item-icon">
+      <!-- fonts.scss -->
+      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
+      <i class="icon-statistics"></i>
+      <span class="post-meta-item-text"> 字数统计:</span>
+      <span class="post-count">0字</span>
+    </span>
+  </span>
+
+  <span class="post-time">
+    &nbsp; | &nbsp;
+    <span class="post-meta-item-icon">
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text"> 阅读时长≈</span>
+      <span class="post-count">1分</span>
+    </span>
+  </span>
+</div>
+
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    
+    
+
+	
+    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+    <div class="widget-wrap">
+        <h3 class="widget-title">Tag Cloud</h3>
+        <div id="myCanvasContainer" class="widget tagcloud">
+            <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/a-Test/" style="font-size: 10px;">a Test</a>
+            </canvas>
+        </div>
+    </div>
+
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    <div class="article-pop-out tagcloud">
+      <i class="icon-tuding"></i>
+      <a class="article-tag-list-link color3">置顶</a>
+    </div>
+    
+    
+
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/02/01/文章/">展开全文 >></a>
     </p>
     
 
@@ -485,6 +557,19 @@
 
     
 
+	
+    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+    <div class="widget-wrap">
+        <h3 class="widget-title">Tag Cloud</h3>
+        <div id="myCanvasContainer" class="widget tagcloud">
+            <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/a-Test/" style="font-size: 10px;">a Test</a>
+            </canvas>
+        </div>
+    </div>
+
+
     
 
     
@@ -493,6 +578,8 @@
   <div class="article-info article-info-index">
     
     
+
+
     
 
     
@@ -675,6 +762,14 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Testing</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">a Test</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>

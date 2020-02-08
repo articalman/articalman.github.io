@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-02-01T03:15:42.552Z</updated>
+  <updated>2020-02-08T08:28:42.772Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/"/>
     <id>http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/</id>
     <published>2020-02-01T03:15:42.000Z</published>
-    <updated>2020-02-01T03:15:42.552Z</updated>
+    <updated>2020-02-08T08:28:42.772Z</updated>
     
     <summary type="html">
     
@@ -36,7 +36,7 @@
     <link href="http://yongzhi.top/2019/09/09/test/"/>
     <id>http://yongzhi.top/2019/09/09/test/</id>
     <published>2019-09-09T11:29:21.000Z</published>
-    <updated>2020-01-31T07:22:04.643Z</updated>
+    <updated>2020-02-08T08:31:24.093Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg" alt="alt text"></p>]]></content>
     
@@ -50,6 +50,12 @@
     </summary>
     
     
+      <category term="test" scheme="http://yongzhi.top/categories/test/"/>
+    
+    
+      <category term="Testing" scheme="http://yongzhi.top/tags/Testing/"/>
+    
+      <category term="a Test" scheme="http://yongzhi.top/tags/a-Test/"/>
     
   </entry>
   

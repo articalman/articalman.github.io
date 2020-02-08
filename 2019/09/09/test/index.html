@@ -10,14 +10,14 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="谢泳之">
+  <meta name="keywords" content="Testing,a Test">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test">
 <meta property="og:url" content="http://yongzhi.top/2019/09/09/test/index.html">
 <meta property="og:site_name" content="泳之の博客">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg">
-<meta property="og:updated_time" content="2020-01-31T07:22:04.643Z">
+<meta property="og:updated_time" content="2020-02-08T08:31:24.093Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg">
@@ -95,7 +95,9 @@
 	        
 				<li><a href="/archives/index.html" >归档</a></li>
 	        
-				<li><a href="/tags/随笔/" >随笔</a></li>
+				<li><a href="/tags" >标签</a></li>
+	        
+				<li><a href="/categories" >分类</a></li>
 	        
 			</ul>
 		</nav>
@@ -178,6 +180,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -202,11 +206,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
+					<li style="width: 25%"><a href="/archives/index.html">归档</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags">标签</a></li>
+		        
+					<li style="width: 25%"><a href="/categories">分类</a></li>
 		        
 				</ul>
 			</nav>
@@ -279,6 +285,19 @@
 
     
 
+	
+    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+    <div class="widget-wrap">
+        <h3 class="widget-title">Tag Cloud</h3>
+        <div id="myCanvasContainer" class="widget tagcloud">
+            <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/a-Test/" style="font-size: 10px;">a Test</a>
+            </canvas>
+        </div>
+    </div>
+
+
     
     <div class="page-reward">
       <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
@@ -335,8 +354,41 @@
   </div>
   <div class="article-info article-info-index">
     
+    <div class="article-pop-out tagcloud">
+      <i class="icon-tuding"></i>
+      <a class="article-tag-list-link color3">置顶</a>
+    </div>
     
     
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Testing</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">a Test</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/test//" class="article-tag-list-link color5">test</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
     
 
@@ -648,6 +700,14 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Testing</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">a Test</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
