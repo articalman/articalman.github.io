@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-02-08T08:28:42.772Z</updated>
+  <updated>2020-02-11T09:03:35.179Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -21,13 +21,22 @@
     <link href="http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/"/>
     <id>http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/</id>
     <published>2020-02-01T03:15:42.000Z</published>
-    <updated>2020-02-08T08:28:42.772Z</updated>
+    <updated>2020-02-11T09:03:35.179Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">"hello world!"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
+      
     
     </summary>
     
     
+    
+      <category term="categories" scheme="http://yongzhi.top/tags/categories/"/>
     
   </entry>
   
