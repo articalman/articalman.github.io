@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-02-11T09:03:35.179Z</updated>
+  <updated>2020-02-13T08:23:02.318Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>文章</title>
-    <link href="http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/"/>
-    <id>http://yongzhi.top/2020/02/01/%E6%96%87%E7%AB%A0/</id>
+    <title>写在前面</title>
+    <link href="http://yongzhi.top/2020/02/01/conclusion/"/>
+    <id>http://yongzhi.top/2020/02/01/conclusion/</id>
     <published>2020-02-01T03:15:42.000Z</published>
-    <updated>2020-02-11T09:03:35.179Z</updated>
+    <updated>2020-02-13T08:23:02.318Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">"hello world!"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>距离搭建完博客已经过去了半年左右的时间，从一开始兴致勃勃的研究各类教程，到后来几乎将这个事情遗忘，<br>写博客这件事情一次次被提上日程却又迟迟没有开始。转眼间我的大学生涯已经过去一小半了，我也无法再抱着一份玩闹的心态面对接下来的生活，是时候安下心来踏踏实实的投入到专业知识的学习中了。</p><p>说到写博客的原因  在专业课的学习过程中经常会遇到不理解的知识，在上网查阅资料的时候 除了官方文档外<br>我还注意到了各种博客平台中琳琅满目的博文 它们 或依托于各大平台 或由个人管理<br>内容都是前辈总结的经验教训和技术分享<br>往往一个自己思考了许久都没有答案的问题 常常在受到别人的点拨后豁然开朗</p><p>通过个人技术博客记录自己踩过的坑 为大家留下宝贵的经验<br>顺便结交一些志同道合热爱IT的小伙伴</p><p>还希望我的博客可以传递一种分享的精神，给大家提供参考价值 帮助读者解决实质性的问题<br>也许我的某篇博文总结或者记录心得对你有哪怕一点点启发   都会令我感到由衷的欣慰</p><p>我希望在打理个人博客的时候，提升自己的写作水平、语言表达能力以及逻辑思维能力 同时<br>整理学习成果 加深对某一技术点的理解<br>总结属于我自己的一套知识体系和结构框架   </p><p>激励自己不停的学习思考 跟上时代的脚步</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
+        &lt;p&gt;距离搭建完博客已经过去了半年左右的时间，从一开始兴致勃勃的研究各类教程，到后来几乎将这个事情遗忘，&lt;br&gt;写博客这件事情一次次被提上日程却又迟迟没有开始。转眼间我的大学生涯已经过去一小半了，我也无法再抱着一份玩闹的心态面对接下来的生活，是时候安下心来踏踏实实的投入到专业知识
       
     
     </summary>
