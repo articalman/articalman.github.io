@@ -467,7 +467,7 @@
 <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
     var notify = 'true' == true ? true : false;
-    var verify = 'true' == true ? true : false;
+    var verify = 'false' == true ? true : false;
     new Valine({
         av: AV,
         el: '#vcomment',
@@ -645,15 +645,15 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">categories</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Testing</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">a Test</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">categories</a>
               </li>
             
             <div class="clearfix"></div>
