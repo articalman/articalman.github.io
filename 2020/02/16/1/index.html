@@ -6,21 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yongzhi.top">
-  <title>test | 泳之の博客</title>
+  <title>1 | 泳之の博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="Testing,a Test">
+  <meta name="description" content="一级标题二级[TOC]  第一项  第二项  第三项  第一项：  第一项嵌套的第一个元素 第一项嵌套的第二个元素   第二项：  第二项嵌套的第一个元素 第二项嵌套的第二个元素    5级 第一项 菜鸟教程学的不仅是技术更是梦想   第二项      ha">
+<meta name="keywords" content="谢泳之，技术博客，hexo ，valine，算法，数据结构">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="http://yongzhi.top/2019/09/09/test/index.html">
+<meta property="og:title" content="1">
+<meta property="og:url" content="http://yongzhi.top/2020/02/16/1/index.html">
 <meta property="og:site_name" content="泳之の博客">
+<meta property="og:description" content="一级标题二级[TOC]  第一项  第二项  第三项  第一项：  第一项嵌套的第一个元素 第一项嵌套的第二个元素   第二项：  第二项嵌套的第一个元素 第二项嵌套的第二个元素    5级 第一项 菜鸟教程学的不仅是技术更是梦想   第二项      ha">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg">
-<meta property="og:updated_time" content="2020-02-14T11:14:16.793Z">
+<meta property="og:updated_time" content="2020-02-16T05:16:12.967Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg">
+<meta name="twitter:title" content="1">
+<meta name="twitter:description" content="一级标题二级[TOC]  第一项  第二项  第三项  第一项：  第一项嵌套的第一个元素 第一项嵌套的第二个元素   第二项：  第二项嵌套的第一个元素 第二项嵌套的第二个元素    5级 第一项 菜鸟教程学的不仅是技术更是梦想   第二项      ha">
   
     <link rel="alternative" href="/atom.xml" title="泳之の博客" type="application/atom+xml">
   
@@ -249,14 +250,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-test" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-1" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      test
+      1
     </h1>
   
 
@@ -268,8 +269,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2019/09/09/test/" class="archive-article-date">
-        <time datetime="2019-09-09T11:29:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-09</time>
+<a href="/2020/02/16/1/" class="archive-article-date">
+        <time datetime="2020-02-16T05:03:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-16</time>
 </a>
 
   
@@ -282,7 +283,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">0字</span>
+      <span class="post-count">90字</span>
     </span>
   </span>
 
@@ -302,13 +303,64 @@
   
   
   <!-- 目录内容 -->
-		
+
+    <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+	<div id="toc-article" class="toc-article">
+	    <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+		<strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一级标题"><span class="toc-number">1.</span> <span class="toc-text">一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级"><span class="toc-number">1.1.</span> <span class="toc-text">二级</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5级"><span class="toc-number">1.1.0.0.1.</span> <span class="toc-text">5级</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ha"><span class="toc-number">2.</span> <span class="toc-text">ha</span></a></li></ol>
+         </div>
+   <script type="text/javascript">
+	function showToc(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:block");
+		show_toc_btn.setAttribute("style","display:none");
+		};
+	function showBtn(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:none");
+		show_toc_btn.setAttribute("style","display:block");
+		};
+   </script>
+      		
 <!-- 目录内容结束 -->
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg" alt="alt text"></p>
-
+    <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><p>[TOC]</p>
+<ol>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+<li><p>第一项：</p>
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li><p>第二项：</p>
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h5 id="5级"><a href="#5级" class="headerlink" title="5级"></a>5级</h5><ul>
+<li>第一项<blockquote>
+<p>菜鸟教程<br>学的不仅是技术更是梦想</p>
+</blockquote>
+</li>
+<li>第二项    </li>
+</ul>
+<h1 id="ha"><a href="#ha" class="headerlink" title="ha"></a>ha</h1>
     
 
 	
@@ -348,57 +400,14 @@
     
 
     
-    <div class="declare"> 
-      <ul class="post-copyright">
-        <li>
-          <strong>本文作者：</strong>
-          谢泳之
-        </li>
-        <li>
-          <strong>本文链接：</strong>
-          <a href="http://yongzhi.top/2019/09/09/test/" title="test" target="_blank">http://yongzhi.top/2019/09/09/test/</a>
-        </li>
-        <li>
-          <strong>版权声明： </strong>
-          本博客所有文章除特别声明外，均采用 <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow" target="_blank">Apache License 2.0</a> 许可协议。转载请注明出处！
-        </li>
-      </ul>
-    </div>
-    
 
   </div>
   <div class="article-info article-info-index">
     
     
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Testing</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">a Test</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
 
 
     
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/test//" class="article-tag-list-link color5">test</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
 
     
 
@@ -448,7 +457,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yongzhi.top/2019/09/09/test/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yongzhi.top/2020/02/16/1/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -463,18 +472,9 @@
 
 <nav id="article-nav">
   
-    <a href="/2020/02/01/conclusion/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          写在前面
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/09/09/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2020/02/01/conclusion/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">写在前面</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -501,7 +501,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    目录，不存在的…
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一级标题"><span class="toc-number">1.</span> <span class="toc-text">一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级"><span class="toc-number">1.1.</span> <span class="toc-text">二级</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5级"><span class="toc-number">1.1.0.0.1.</span> <span class="toc-text">5级</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ha"><span class="toc-number">2.</span> <span class="toc-text">ha</span></a></li></ol>
                     </div>
                 </span>
             </div>
