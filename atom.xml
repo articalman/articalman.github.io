@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-03-02T15:03:59.218Z</updated>
+  <updated>2020-03-28T15:01:54.595Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -21,19 +21,24 @@
     <link href="http://yongzhi.top/2020/03/02/sql/"/>
     <id>http://yongzhi.top/2020/03/02/sql/</id>
     <published>2020-03-02T14:54:50.000Z</published>
-    <updated>2020-03-02T15:03:59.218Z</updated>
+    <updated>2020-03-28T15:01:54.595Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="http://msdn.itellyou.cn/" target="_blank" rel="noopener">http://msdn.itellyou.cn/</a><br>墙裂推荐msdn，资源很全，下载速度还快<br>我下载的是这版<br>SQL Server 2012 Enterprise Core Edition with Service Pack 1 (x64) - DVD (Chinese-Simplified)<br>下载完成后打开setup.exe<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql0.jpg" alt="1"></p><a id="more"></a><p>先点击系统配置检查器<br>然后按照提示默认下一步<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql.jpg" alt></p><p>这个警告可以忽略<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql6.jpg" alt></p><p>产品密钥是自带的哦<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql7.jpg" alt></p><p>又报错了。。。<br>“需要更新以前的visual studio 2010实例”<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql10.jpg" alt></p><p>按照错误提示搜Microsoft Visual Studio 2010 Service Pack 1<br>下载了安装就好<br>这个是网址<a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=34677" target="_blank" rel="noopener">https://www.microsoft.com/zh-cn/download/details.aspx?id=34677</a><br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql11.jpg" alt></p><p>在安装的过程中提示KB2736182 无法应用<br>这就尴尬了，网上找了一圈都没有解决<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql12.jpg" alt></p><p>突然想起来之前装过VS，可能是还有高版本的VS残留<br>控制面板-&gt;程序-&gt;程序和功能<br>找到版本 &gt; 2010 的卸载掉<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql13.jpg" alt></p><p>果然，重新运行一次就可以了<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql14.jpg" alt></p><p>选默认实例<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql15.jpg" alt></p><p>选择混合模式，添加当前用户<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql17.jpg" alt></p><p>继续添加，下一步一样<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql18.jpg" alt></p><p>安装时间大概半小时左右<br>像下图这样就是安装好了<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql24.jpg" alt></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p><a href="http://msdn.itellyou.cn/" target="_blank" rel="noopener">http://msdn.itellyou.cn/</a><br>  墙裂推荐msdn，资源很全，下载速度还快<br>我下载的是这版<br>SQL Server 2012 Enterprise Core Edition with Service Pack 1 (x64) - DVD (Chinese-Simplified)<br>下载完成后打开setup.exe</p></blockquote><p><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql0.jpg" alt="1"></p><a id="more"></a><blockquote><p>先点击系统配置检查器<br>然后按照提示默认下一步<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql.jpg" alt></p></blockquote><blockquote><p>这个警告可以忽略<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql6.jpg" alt></p></blockquote><blockquote><p>产品密钥是自带的哦<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql7.jpg" alt></p></blockquote><blockquote><p>又报错了。。。<br>“需要更新以前的visual studio 2010实例”<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql10.jpg" alt></p></blockquote><blockquote><p>按照错误提示搜Microsoft Visual Studio 2010 Service Pack 1<br>下载了安装就好<br>这个是网址<a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=34677" target="_blank" rel="noopener">https://www.microsoft.com/zh-cn/download/details.aspx?id=34677</a><br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql11.jpg" alt></p></blockquote><blockquote><p>在安装的过程中提示KB2736182 无法应用<br>这就尴尬了，网上找了一圈都没有解决<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql12.jpg" alt></p></blockquote><blockquote><p>突然想起来之前装过VS，可能是还有高版本的VS残留<br>控制面板-&gt;程序-&gt;程序和功能<br>找到版本 &gt; 2010 的卸载掉<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql13.jpg" alt></p></blockquote><blockquote><p>果然，重新运行一次就可以了<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql14.jpg" alt></p></blockquote><blockquote><p>选默认实例<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql15.jpg" alt></p></blockquote><blockquote><p>选择混合模式，添加当前用户<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql17.jpg" alt></p></blockquote><blockquote><p>继续添加，下一步一样<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql18.jpg" alt></p></blockquote><blockquote><p>安装时间大概半小时左右<br>  像下图这样就是安装好了<br><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql24.jpg" alt></p></blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://msdn.itellyou.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://msdn.itellyou.cn/&lt;/a&gt;&lt;br&gt;墙裂推荐msdn，资源很全，下载速度还快&lt;br&gt;我下载的是这版&lt;br&gt;SQL Server 2012 Enterprise Core Edition with Service Pack 1 (x64) - DVD (Chinese-Simplified)&lt;br&gt;下载完成后打开setup.exe&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql0.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://msdn.itellyou.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://msdn.itellyou.cn/&lt;/a&gt;&lt;br&gt;  墙裂推荐msdn，资源很全，下载速度还快&lt;br&gt;我下载的是这版&lt;br&gt;SQL Server 2012 Enterprise Core Edition with Service Pack 1 (x64) - DVD (Chinese-Simplified)&lt;br&gt;下载完成后打开setup.exe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/articalman/picture-bed/master/img/sql0.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
     
     </summary>
     
     
     
       <category term="sqlServer" scheme="http://yongzhi.top/tags/sqlServer/"/>
+    
+      <category term="软件安装配置" scheme="http://yongzhi.top/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
@@ -42,50 +47,27 @@
     <link href="http://yongzhi.top/2020/02/01/conclusion/"/>
     <id>http://yongzhi.top/2020/02/01/conclusion/</id>
     <published>2020-02-01T03:15:42.000Z</published>
-    <updated>2020-03-28T13:48:54.414Z</updated>
+    <updated>2020-03-28T15:08:17.438Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="引子："><a href="#引子：" class="headerlink" title="引子："></a>引子：</h1><p>&emsp;&emsp;距离搭建完博客已经过去了半年左右的时间，从一开始兴致勃勃的研究各类教程，到后来搭建好后</p><p>渐渐将这件事情遗忘，<strong>写博客</strong>一次次被提上日程却又迟迟没有开始。转眼间我的大学生涯已经过去一小</p><p>半了，我也无法再抱着一份玩闹的心态面对接下来的生活，是时候安下心来踏踏实实的投入到专业知识</p><p>的学习中了。<br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/conclusion.jpeg" alt="1"></p><a id="more"></a><hr><h1 id="why"><a href="#why" class="headerlink" title="why"></a>why</h1><p>关于写博客的原因，那就说来话长了。</p><p>我在学习专业课的过程中经常会遇到不理解的知识，于是便经常通过网络的方式寻求帮助。</p><p>上网查阅资料的时候，除了官方文档外我还注意到了琳琅满目的博文，它们或<strong>依托于各大平台</strong>或由<strong>个人管理</strong>。</p><p>其中内容都是前辈总结的<strong>经验教训</strong>和<strong>技术分享</strong>，往往一个自己思考许久都没有答案的问题，常常在受到别人的点拨后豁然开朗，对于初学的我可谓十分受用。</p><hr><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><p>很早以前我便有写博客的想法，苦于网上的<strong>云服务器</strong>需要收费，<strong>备案</strong>的过程更是繁琐，只好将此事搁置。</p><p>去年暑假的时候我第一次听说github，本打算了解一些基础的git命令，却误打误撞的发现了其中的GithubPage,从此便一发不可收拾。</p><p>在两天的不断试错中总算是将个人博客以<strong><em>hexo+GithubPage</em></strong>的形式搭建了起来，换上了yilia-plus这个简洁大方的主题。</p><p>当我用浏览器打开我的博客时，一股莫名的喜悦涌上心头，我终于拥有了属于自己的独立博客，那种感觉到现在我还能清楚的记得。</p><hr><h1 id="What"><a href="#What" class="headerlink" title="What"></a>What</h1><blockquote><ul><li>博客中的博文主要是用来记录自己的<strong>学习路线</strong>以及<strong>踩过的坑</strong>，整理学习成果。</li><li>在遇到问题到解决问题这一过程中，留下我的分析看法、处理方式，加深对某一技术点的理解，总结一套属于自己的知识体系和结构框架。</li><li>写作前亲自实践，力求文章中提到的所有方法均可复现。</li><li>为大家留下宝贵经验的同时，顺便结交一批志同道合热爱IT的小伙伴。</li></ul></blockquote><hr><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p><strong><em>我希望通过打理个人博客</em></strong></p><blockquote><ul><li>提升自己的写作水平、语言表达能力以及逻辑思维能力</li><li>激励自己不断的<strong>学习思考</strong>，跟上时代的脚步</li><li>传递一种<strong>分享</strong>的<strong>精神</strong>，像<strong>Github</strong>一样<strong>开源</strong>，知识应该是<strong>互相分享</strong>的。</li><li>为读者提供参考价值，帮助大家解决实质性的问题</li></ul></blockquote><p><strong>ps</strong>:也许我的某篇博文总结或者记录心得对你有哪怕一点点启发，都会令我感到由衷的欣慰。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="引子："><a href="#引子：" class="headerlink" title="引子："></a>引子：</h1><p>&emsp;&emsp;距离搭建完博客已经过去了半年左右的时间，从一开始兴致勃勃的研究各类教程，到后来搭建好后</p><p>渐渐将这件事情遗忘，<strong>写博客</strong>一次次被提上日程却又迟迟没有开始。转眼间我的大学生涯已经过去一小</p><p>半了，我也无法再抱着一份玩闹的心态面对接下来的生活，是时候安下心来踏踏实实的投入到专业知识</p><p>的学习中了。</p><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/conclusion.jpeg" alt="1"></p><a id="more"></a><hr><h1 id="why"><a href="#why" class="headerlink" title="why"></a>why</h1><p><strong>关于写博客的原因，那就说来话长了。</strong></p><blockquote><ul><li>我在学习专业课的过程中经常会遇到不理解的知识，于是便经常通过网络的方式寻求帮助。</li><li>上网查阅资料的时候，除了官方文档外我还注意到了琳琅满目的博文，它们或<strong>依托于各大平台</strong>或由<strong>个人管理</strong>。</li><li>其中内容都是前辈总结的<strong>经验教训</strong>和<strong>技术分享</strong>，往往一个自己思考许久都没有答案的问题，常常在受到别人的点拨后豁然开朗，对于初学的我可谓十分受用。</li></ul></blockquote><hr><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><blockquote><ul><li>很早以前我便有写博客的想法，苦于网上的<strong>云服务器</strong>需要收费，<strong>备案</strong>的过程更是繁琐，只好将此事搁置。</li><li>去年暑假的时候我第一次听说github，本打算了解一些基础的git命令，却误打误撞的发现了其中的GithubPage,从此便一发不可收拾。</li><li>在两天的不断试错中总算是将个人博客以<strong><em>hexo+GithubPage</em></strong>的形式搭建了起来，换上了yilia-plus这个简洁大方的主题。</li><li>当我用浏览器打开我的博客时，一股莫名的喜悦涌上心头，我终于拥有了属于自己的独立博客，那种感觉到现在我还能清楚的记得。</li></ul></blockquote><hr><h1 id="What"><a href="#What" class="headerlink" title="What"></a>What</h1><blockquote><ul><li>博客中的博文主要是用来记录自己的<strong>学习路线</strong>以及<strong>踩过的坑</strong>，整理学习成果。</li><li>在遇到问题到解决问题这一过程中，留下我的分析看法、处理方式，加深对某一技术点的理解，总结一套属于自己的知识体系和结构框架。</li><li>写作前亲自实践，力求文章中提到的所有方法均可复现。</li><li>为大家留下宝贵经验的同时，顺便结交一批志同道合热爱IT的小伙伴。</li></ul></blockquote><hr><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p><strong><em>我希望通过打理个人博客</em></strong></p><blockquote><ul><li>提升自己的写作水平、语言表达能力以及逻辑思维能力</li><li>激励自己不断的<strong>学习思考</strong>，跟上时代的脚步</li><li>传递一种<strong>分享</strong>的<strong>精神</strong>，像<strong>Github</strong>一样<strong>开源</strong>，知识应该是<strong>互相分享</strong>的。</li><li>为读者提供参考价值，帮助大家解决实质性的问题</li></ul></blockquote><p><strong>ps</strong>:<strong><em>也许我的某篇博文总结或者记录心得对你有哪怕一点点启发，都会令我感到由衷的欣慰。</em></strong></p>]]></content>
     
     <summary type="html">
     
       &lt;h1 id=&quot;引子：&quot;&gt;&lt;a href=&quot;#引子：&quot; class=&quot;headerlink&quot; title=&quot;引子：&quot;&gt;&lt;/a&gt;引子：&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;距离搭建完博客已经过去了半年左右的时间，从一开始兴致勃勃的研究各类教程，到后来搭建好后&lt;/p&gt;
 &lt;p&gt;渐渐将这件事情遗忘，&lt;strong&gt;写博客&lt;/strong&gt;一次次被提上日程却又迟迟没有开始。转眼间我的大学生涯已经过去一小&lt;/p&gt;
 &lt;p&gt;半了，我也无法再抱着一份玩闹的心态面对接下来的生活，是时候安下心来踏踏实实的投入到专业知识&lt;/p&gt;
-&lt;p&gt;的学习中了。&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/conclusion.jpeg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;的学习中了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/conclusion.jpeg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
     
     </summary>
     
     
-    
-      <category term="categories" scheme="http://yongzhi.top/tags/categories/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yongzhi.top/2019/09/09/test/"/>
-    <id>http://yongzhi.top/2019/09/09/test/</id>
-    <published>2019-09-09T11:29:21.000Z</published>
-    <updated>2020-02-14T11:14:16.793Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg" alt="alt text"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/articalman/picture-bed/master/img/%E6%89%B9%E6%B3%A8%202020-01-19%20205433.jpg&quot; alt=&quot;alt text
-      
-    
-    </summary>
+      <category term="杂谈" scheme="http://yongzhi.top/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-      <category term="test" scheme="http://yongzhi.top/categories/test/"/>
+      <category term="随笔" scheme="http://yongzhi.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
-    
-      <category term="Testing" scheme="http://yongzhi.top/tags/Testing/"/>
-    
-      <category term="a Test" scheme="http://yongzhi.top/tags/a-Test/"/>
+      <category term="总结" scheme="http://yongzhi.top/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -94,7 +76,7 @@
     <link href="http://yongzhi.top/2019/09/09/hello-world/"/>
     <id>http://yongzhi.top/2019/09/09/hello-world/</id>
     <published>2019-09-09T11:23:27.084Z</published>
-    <updated>2020-02-18T08:28:40.127Z</updated>
+    <updated>2020-03-28T14:55:29.209Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">您好, 这里需要密码.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="3459bba16a77a183187b3ca29468db7b628ee4c3b1bc51b4e46adf26742e8496">56d7b3367aa49e28656be8eed6581cbf75773aa16885176585bd5c2aad635ab9a22eb547c4d3a84eb38fdea1c040c23b2bd9f11cb65f50934b013996abd7b75716c338903d9862d4286309cb051bfb57035f061536a3d42ca48bc465649efab864f819864036558d6e797601918ccb9f96b1829f09798ac45becaaf4e2b0ca5898af54256f667defda0fa8b22da5196d04cf0647a291a24d7f4c429ad660197655be4c1f958ea05893b3c469246c179a4c29d92a2e9ba7aabb0b57ac28654afd49f27960b5bc50ed45af917ef1a21108bb49d21a675a664b95aa28af6115fd796696601383b2abe66d0e1730cb1a09401c47271860caeac2446659d3b7f20dcd518fbf53dd93e8bfbe2e4b1048924d1b8025bc746d1caeef69ea1367edcd1e605b4149883a574c0d26ac78e730e065e4b0d42ff59f3bfba5dcf01f1147261d6e14852fdd375d2422f7a05dadd656294b829801a266f33eb69e510ec8d8570efe54735ab251d83f48e04fb4b6178551cc5737488c86ca6d2085b2c7a76b2d85ec15c57a095de581e4ca024da66842b4e6ea5fa0cddffb2aff24aeee17bed501b247150c78678829afee80f321e1c8fc9925e4d910fe2ab33c492bbb13a3affdb2101c4e322c74c410a4e46e3ca1acd1b6faf50c67edf4cd0310640bc27b4c597a38f9aec7a7c8f02c8213af4c70af61d9316efe432a70c549c2ce7f245e16bf0325ebc3fc5e6607d6cc7785d1ee8fc6aa8f1501b2f09ec7847c8a0cbe0c7e09ba87781e9b0ef775e1eee62432b88b9ecb6692ba98052ae2d6699cbc1e9dec39342ebae94af11896e8ff1292e86cbe3c084326392ddc857e568303f3dc59cd3fc55cdd9a734d7c45dba3fa912bad5ab97ea1f1e99626d853d038c1b13e19e642f3711813123987e27b995e0079bc1064553d88f58781394c4d1b36adc2530f4bbc6ec819bdf40646393a5f12d9787c4c16e705fa62f200eb3840abbe2e30def0fb7f3c5e5d8fe663ca54c5d4971f5fbb1792e7554d1d66d974d0b5fa1fba9f06704a80bf34c30abaa8bb2cad5e174576e593fe6db178d0286c79e740fdc686677d4d0b35f38fa78f1384716242a841675f0096c72956a298033691b120f0745a6b6dfde05b1c8b047a08ae8cb08c4879fd1fadfaa46fb80dd0096b4cadd6e15ef6fd3f774536ae41522e388c90ad0efd854b562bcfde197b21c24ef099e5c37603082d51bae71b081cce311be24e218a819ce1074cac40acc895f9782cd1a98094fba0c26d2cd0af5a9a10b91f69d5888063040a8b5590367ce56c0efffc3d747b89542f58a0cde4343ee8a4df5b22e882c534fdbc1c3c82beb9c48e7d133402253837c3cb5aa32d00f46901358a7c60142ee2c6169ca29122d64ba3b302f31bef40b333d08500e2073e10035baa0a4ef6413299b29c2483889cdc5ca81ab838c2f0a8cf8a99fa465ed39e5496b56fabceb5ebb33a661ed4370d3a238ad94dd399b7bcd07716e64f85a37176633de2a02b380ef677a5b617e21afadecc8752700a97ab9c41300d604b735685c7aac360a8ba8fd11c35a613359ea393be8a317555c51346ea2af4590b91f9f50d340ee1ce9d8f0d9b759efefbef8232955442f99623ccd4c2706cef624202cb95f4f893314d224a8a57f6467456321f209061abe216beecfc6bbbb75a03838e37b782a1940e3c16b11348cee3d975b4489cb804e47ab47bc165aece09a539f5f25255f439eea0bc88313ae165f82e9a53981112521e61cdca1858207a8753d3df47f112995bf88320148dc769a191602f43ec3e798900ff178664ed36594d5ac18abeb76e5aa82b5e24caacf3b7846548faffcbf1be70c94dc8c8060c0df0e9bdce003dd48df77399e3306db8f3ba8823247eb3747f9d70e98259cd8e4b931b1cc5dc0c45eb622af16c38e1a5268758719daabce7443ffcc92d124568e4eea7423691c11e10c56a39d466ab407177ac62f8c5468dba6182e248c4e028249d7cc7912b189da38e4fe7729d24571b1c826e94347288a6fd27724007e630a698fb4e8c27b5db5da628f1779c67c9392fbe6fb340e551cefcfe13d2b442e029b9190964c284b33a052fdce924d9ac15bd014bc001568cc56ab10585970da4131e7cee0c75985d83c953eb2ca3517ff320456243157792c9c06c8f407c063a0b69e6930f9d97538c9eae462f0aa105b1454536369daff06e2e3713b49db54251a8853c605df7af953f7f23bda83963ea1bce23cbb5a0984d6cb4df5c1dc15cbbf51c6411e03cec5a30496638b20ece7672c6fd749025484c499b1b714039c0d64e03482003787befb2e9607474195968f98d47e603e5a02da6b9184b2d32a5b80f49cb9f8d9fe4f56f82417275ace826d505fc776f3199e995eb368ade9d12ca8785a419321447e4c7d745fbfc2c0ee3ce5ecadd9f4cc835d97d59bb9f6747aaf5c67489f9793733a0e0cd4b109312d876b425d919d8acef55a9048ac509563130550674f00843c15dc7e1f0419f12f152d47a7e204a990247ff1038068754ffc543ee6ae60fe220466b45dd639165bb068eef5159eb9680a37f87a78045329f16b756e80c8805621560fb0d05fa960e9aaeeb61c8521671c712e3769c5ec0a0143a7c8c2981306c4de084166969dd2a4ecd55a198b75353730a9f1396573e9b739500a7b24842058ab333160ffb74932e613e61279e3cb4725fbc0f6b675fea5da3d8544b0032a952f6a5ec69fe957c7e28e59f0d9d3129ee46627e9c23bd6004e99469f48840d3197ff3483b2d30d10391f717bffcc9fc92b55ba828e28611dc26d2146aa488249c907c0ebd32841d21fd3173d38aca2751f35cbf6b727fa7a9087153230b3904d665c5e46de3a67a5053ef0d458f641e1216fec0f66827cf4395c86532aac9d1957cf094008abf54dfdd23cb0e1c38ee385142046170b62dbd93395a20f146ab7609bf9158a043ce563fe34d153b39f96e2db1380483ae44f6d7525aaa424b95076c9e2b35578f66022f872185b934433aeaf8b386c4423166668f3fc85cc32fc41c6e92ce2f3495ea3927534824565ab28e3cea14a851f0a01875a1fa5485927cbf7e82e64a19f95a3ae8179848243b211feb7e361913213ecb83d6e19a33ade5f7e67c2c2b0040f50e8a6a00c0c8554937c979d9f9c3af1638a760eff57294921d45c89f8569253599fbd539c0808afad574edecde967184f6be079f3281678f8fc028d7d8422eee0c08f3ab5896dbad660ad41c19552b46351ac44fd178b9707ef77d85b610340f6b65869c1b74530c1fe26e31bdcc89545a1b32b486f2423151541bef0d125a7f0390e77e0c11d0c435fb6e04d4df9985852b9b72908f88d7c1cbaab5e7f8e7d821bc7e625398d3ab63491ebe23825f4a746c06666939c67b7a7f850320e3ac99b68c329259da</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -105,6 +87,10 @@
     </summary>
     
     
+      <category term="Hello World" scheme="http://yongzhi.top/categories/Hello-World/"/>
+    
+    
+      <category term="Hello World" scheme="http://yongzhi.top/tags/Hello-World/"/>
     
   </entry>
   
