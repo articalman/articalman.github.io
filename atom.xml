@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-03-28T15:24:54.906Z</updated>
+  <updated>2020-04-20T14:32:52.699Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>-Hexo实现github+coding双线部署并开启HTTPS-</title>
+    <link href="http://yongzhi.top/2020/04/18/coding/"/>
+    <id>http://yongzhi.top/2020/04/18/coding/</id>
+    <published>2020-04-18T13:34:26.409Z</published>
+    <updated>2020-04-20T14:32:52.699Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>实现本文的内容需要先部署github pages并使用域名解析</strong></p><h1 id="一、登录coding创建代码仓库"><a href="#一、登录coding创建代码仓库" class="headerlink" title="一、登录coding创建代码仓库"></a>一、登录coding创建代码仓库</h1><blockquote><ul><li>注册并登录<a href="https://coding.net/" target="_blank" rel="noopener">coding</a>，注册过程略</li><li>创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成<br><del>(建议生成readme.md文件)</del></li></ul></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg" alt></p><a id="more"></a><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding2.jpg" alt><br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding3.jpg" alt></p><h1 id="二、添加ssh-key并验证"><a href="#二、添加ssh-key并验证" class="headerlink" title="二、添加ssh key并验证"></a>二、添加ssh key并验证</h1><h2 id="1-ssh-key的添加："><a href="#1-ssh-key的添加：" class="headerlink" title="1.ssh key的添加："></a>1.ssh key的添加：</h2><blockquote><ul><li>找到配置<strong><em>github page</em></strong>时生成的<strong>SSH key</strong>,在<code>C:\Users\用户名\.ssh</code>目录下的<strong>id_rsa.pub</strong>文件中</li><li>在【个人设置】-&gt;【SSH公钥】中点击<strong><em>新增公钥</em></strong></li></ul></blockquote><p><strong>ps:创建的过程中记得选择永久有效</strong></p><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding4.jpg" alt><br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding5.jpg" alt></p><h2 id="2-检测是否配置成功"><a href="#2-检测是否配置成功" class="headerlink" title="2.检测是否配置成功"></a>2.检测是否配置成功</h2><blockquote><p>为了检查是否配置成功，可以打开<strong><em>git bash</em></strong>然后输入<code>ssh -T git@e.coding.net</code><br>命令，如果成功的话你会看到提示信息如下</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding6.jpg" alt></p><h1 id="三、为hexo博客增加新线路"><a href="#三、为hexo博客增加新线路" class="headerlink" title="三、为hexo博客增加新线路"></a>三、为hexo博客增加新线路</h1><h2 id="1-在coding仓库中找到ssh的链接"><a href="#1-在coding仓库中找到ssh的链接" class="headerlink" title="1.在coding仓库中找到ssh的链接"></a>1.在coding仓库中找到<strong>ssh</strong>的链接</h2><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding8.jpg" alt></p><h2 id="2-将链接添加到hexo配置文件"><a href="#2-将链接添加到hexo配置文件" class="headerlink" title="2.将链接添加到hexo配置文件"></a>2.将链接添加到hexo配置文件</h2><blockquote><p>打开博客根目录下的配置文件<strong>_config.yml</strong>在deploy中添加一条新配置，和<strong><em>github page</em></strong>同理，连接到<strong><em>coding</em></strong>的仓库</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding7.jpg" alt></p><h1 id="四、设置coding-page"><a href="#四、设置coding-page" class="headerlink" title="四、设置coding page"></a>四、设置coding page</h1><h2 id="1-找到“隐藏的服务入口”"><a href="#1-找到“隐藏的服务入口”" class="headerlink" title="1.找到“隐藏的服务入口”"></a>1.找到“隐藏的服务入口”</h2><blockquote><p>在【项目设置】-&gt;【项目与成员】-&gt;【功能开关】打开<strong>持续部署</strong></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding9.jpg" alt></p><h2 id="2-开启服务"><a href="#2-开启服务" class="headerlink" title="2.开启服务"></a>2.开启服务</h2><blockquote><p>回到项目主页，就可以找到刚才添加的<strong>项目主页</strong>进入<strong>静态网站</strong>中<br>即可开启对应的<strong>coding page</strong>服务</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding10.jpg" alt></p><h1 id="五、域名解析"><a href="#五、域名解析" class="headerlink" title="五、域名解析"></a>五、域名解析</h1><h2 id="1-添加coding的域名"><a href="#1-添加coding的域名" class="headerlink" title="1.添加coding的域名"></a>1.添加coding的域名</h2><blockquote><p>打开你购买的域名服务商的<strong>域名控制台</strong>，添加<strong>2条</strong>指向coding的域名记录</p></blockquote><blockquote><ul><li>一条<strong>CNAME</strong>记录，主机记录为<strong>WWW</strong>，指向<strong>coding page</strong>，访问的时候带<strong>www</strong>前缀  </li><li>另外一条<strong>A</strong>记录，主机记录为<strong>@</strong>，指向网站的<strong>ip地址</strong>，访问的时候可以不带<strong>www</strong></li></ul></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding12.jpg" alt></p><h2 id="2-调整github-page的线路"><a href="#2-调整github-page的线路" class="headerlink" title="2.调整github page的线路"></a>2.调整github page的线路</h2><h3 id="2-1将github的记录指向国外"><a href="#2-1将github的记录指向国外" class="headerlink" title="2.1将github的记录指向国外"></a>2.1将github的记录指向<strong>国外</strong></h3><blockquote><p>这样在<strong>境内</strong>访问的时候就会走<strong>coding</strong>的线路，原先<strong>github</strong>的线路就留在<strong>国外</strong>访问的时候，<br>网页加载的速度大幅提升</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding11.jpg" alt></p><h1 id="六、申请ssl证书，实现HTTPS"><a href="#六、申请ssl证书，实现HTTPS" class="headerlink" title="六、申请ssl证书，实现HTTPS"></a>六、申请ssl证书，实现HTTPS</h1><h2 id="1-在自定义域名处绑定你的域名"><a href="#1-在自定义域名处绑定你的域名" class="headerlink" title="1.在自定义域名处绑定你的域名"></a>1.在自定义域名处绑定你的域名</h2><blockquote><ul><li>绑定的时候一个设置为首选，另外一个选择跳转至首选，这样无论访问哪一个都可以跳转到对应的首选页面了</li><li>申请ssl证书的时候先把解析到github的线路<strong>全部暂停</strong>，在申请<strong>成功之后</strong>再重新开启对应的解析<br><u>(注意操作的顺序，不然会失败)</u></li></ul></blockquote><h2 id="2-打开强制HTTPS"><a href="#2-打开强制HTTPS" class="headerlink" title="2.打开强制HTTPS"></a>2.打开<strong>强制HTTPS</strong></h2><blockquote><ul><li>有了<strong>ssl证书</strong>以后访问博客的时候就可以启用<strong>https</strong>，提升网站的安全性<del>访问的时候网址旁边的那个小绿锁就是开启了https的证明</del></li></ul></blockquote><p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding13.jpg" alt></p><blockquote><p>需要注意的是，ssl证书的<strong>有效期只有3个月</strong></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;实现本文的内容需要先部署github pages并使用域名解析&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;一、登录coding创建代码仓库&quot;&gt;&lt;a href=&quot;#一、登录coding创建代码仓库&quot; class=&quot;headerlink&quot; title=&quot;一、登录coding创建代码仓库&quot;&gt;&lt;/a&gt;一、登录coding创建代码仓库&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;注册并登录&lt;a href=&quot;https://coding.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;coding&lt;/a&gt;，注册过程略&lt;/li&gt;
+&lt;li&gt;创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成&lt;br&gt;&lt;del&gt;(建议生成readme.md文件)&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg&quot; alt&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
+    
+    
+      <category term="双线部署" scheme="http://yongzhi.top/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>SqlServer 2012安装</title>
