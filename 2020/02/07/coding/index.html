@@ -10,14 +10,15 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="实现本文的内容需要先部署github pages并使用域名解析 一、登录coding创建代码仓库  注册并登录coding，注册过程略 创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成(建议生成readme.md文件)">
-<meta name="keywords" content="双线部署,hexo">
+  <meta name="description" content="Q1：什么是双线部署？A: 就是把博客同时部署在两个线路上，实现分区域访问Q2: 有什么优点呢？A: 境内访问github paage上的博客时速度不会受限，同时，coding不会影响到百度的收录">
+<meta name="keywords" content="hexo,双线部署">
 <meta property="og:type" content="article">
 <meta property="og:title" content="-Hexo实现github+coding双线部署并开启HTTPS-">
 <meta property="og:url" content="http://yongzhi.top/2020/02/07/coding/index.html">
 <meta property="og:site_name" content="泳之の博客">
-<meta property="og:description" content="实现本文的内容需要先部署github pages并使用域名解析 一、登录coding创建代码仓库  注册并登录coding，注册过程略 创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成(建议生成readme.md文件)">
+<meta property="og:description" content="Q1：什么是双线部署？A: 就是把博客同时部署在两个线路上，实现分区域访问Q2: 有什么优点呢？A: 境内访问github paage上的博客时速度不会受限，同时，coding不会影响到百度的收录">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding0.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding2.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding3.jpg">
@@ -31,11 +32,11 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding12.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding11.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding13.jpg">
-<meta property="og:updated_time" content="2020-04-20T14:56:58.978Z">
+<meta property="og:updated_time" content="2020-04-21T15:03:05.311Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="-Hexo实现github+coding双线部署并开启HTTPS-">
-<meta name="twitter:description" content="实现本文的内容需要先部署github pages并使用域名解析 一、登录coding创建代码仓库  注册并登录coding，注册过程略 创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成(建议生成readme.md文件)">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg">
+<meta name="twitter:description" content="Q1：什么是双线部署？A: 就是把博客同时部署在两个线路上，实现分区域访问Q2: 有什么优点呢？A: 境内访问github paage上的博客时速度不会受限，同时，coding不会影响到百度的收录">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding0.jpg">
   
     <link rel="alternative" href="/atom.xml" title="泳之の博客" type="application/atom+xml">
   
@@ -143,8 +144,8 @@
 		</nav>
 		
 		<nav>
-			<a>总文章数 4</a>
-			<a>总字数 <span class="post-count">1.7k</span>
+			<a>总文章数 5</a>
+			<a>总字数 <span class="post-count">2.5k</span>
 		</nav>
 		
 		<nav class="header-nav">
@@ -192,7 +193,7 @@
 				<h3 class="widget-title">Tag Cloud</h3>
 				<div id="myCanvasContainer" class="widget tagcloud">
 					<canvas width="250" height="250" id="resCanvas" style="width=100%">
-						<a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/sqlServer/" style="font-size: 10px;">sqlServer</a> <a href="/tags/双线部署/" style="font-size: 10px;">双线部署</a> <a href="/tags/总结/" style="font-size: 10px;">总结</a> <a href="/tags/软件安装配置/" style="font-size: 10px;">软件安装配置</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+						<a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/sqlServer/" style="font-size: 10px;">sqlServer</a> <a href="/tags/双线部署/" style="font-size: 10px;">双线部署</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/总结/" style="font-size: 10px;">总结</a> <a href="/tags/软件安装配置/" style="font-size: 10px;">软件安装配置</a> <a href="/tags/软件配置/" style="font-size: 10px;">软件配置</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</canvas>
 				</div>
 			</div>
@@ -324,7 +325,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">694字</span>
+      <span class="post-count">765字</span>
     </span>
   </span>
 
@@ -347,16 +348,17 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p><strong>实现本文的内容需要先部署github pages并使用域名解析</strong></p>
+    <p><strong>Q1：什么是双线部署？</strong><br>A: 就是把博客同时部署在两个线路上，实现分区域访问<br><strong>Q2: 有什么优点呢？</strong><br>A: 境内访问github paage上的博客时速度不会受限，同时，coding不会影响到百度的收录<br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding0.jpg" alt></p>
+<a id="more"></a>
+<hr>
+<p><strong>注意：实现本文的内容需要先部署github pages并使用域名解析</strong></p>
 <h1 id="一、登录coding创建代码仓库"><a href="#一、登录coding创建代码仓库" class="headerlink" title="一、登录coding创建代码仓库"></a>一、登录coding创建代码仓库</h1><blockquote>
 <ul>
 <li>注册并登录<a href="https://coding.net/" target="_blank" rel="noopener">coding</a>，注册过程略</li>
 <li>创建一个代码托管项目，项目标识会根据你填写的项目名称自动生成<br><del>(建议生成readme.md文件)</del></li>
 </ul>
 </blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg" alt></p>
-<a id="more"></a>
-<p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding2.jpg" alt><br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding3.jpg" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding1.jpg" alt><br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding2.jpg" alt><br><img src="https://cdn.jsdelivr.net/gh/articalman/picture-bed@master/img/coding3.jpg" alt></p>
 <h1 id="二、添加ssh-key并验证"><a href="#二、添加ssh-key并验证" class="headerlink" title="二、添加ssh key并验证"></a>二、添加ssh key并验证</h1><h2 id="1-ssh-key的添加："><a href="#1-ssh-key的添加：" class="headerlink" title="1.ssh key的添加："></a>1.ssh key的添加：</h2><blockquote>
 <ul>
 <li>找到配置<strong><em>github page</em></strong>时生成的<strong>SSH key</strong>,在<code>C:\Users\用户名\.ssh</code>目录下的<strong>id_rsa.pub</strong>文件中</li>
@@ -478,11 +480,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">双线部署</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">双线部署</a>
         		</li>
       		
 		</ul>
@@ -576,8 +578,8 @@
     </a>
   
   
-    <a href="/2020/02/01/conclusion/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">写在前面</div>
+    <a href="/2020/02/03/picturebed/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">-Github+Picgo+jsDelivr打造博客图床-</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -812,15 +814,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color5">软件配置</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">总结</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">双线部署</a>
+                <a href="javascript:void(0)" class="js-tag color3">图床</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -837,6 +835,18 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">软件安装配置</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">总结</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">双线部署</a>
               </li>
             
             <div class="clearfix"></div>
