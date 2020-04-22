@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yongzhi.top/"/>
-  <updated>2020-03-28T15:24:54.906Z</updated>
+  <updated>2020-04-22T03:59:36.533Z</updated>
   <id>http://yongzhi.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客插入bilibili视频</title>
+    <link href="http://yongzhi.top/2020/04/22/video/"/>
+    <id>http://yongzhi.top/2020/04/22/video/</id>
+    <published>2020-04-22T03:53:15.000Z</published>
+    <updated>2020-04-22T03:59:36.533Z</updated>
+    
+    <content type="html"><![CDATA[<div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=42467871&bvid=BV1Cb411677C&cid=74518845&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"position: relative; padding: 30% 45%;"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">style</span>=<span class="string">"position: absolute; width: 100%; height: 100%; left: 0; top: 0;"</span> <span class="attr">src</span>=<span class="string">"视频地址"</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;
+&lt;iframe style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot; src=&quot;htt
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>SqlServer 2012安装</title>
@@ -61,9 +84,9 @@
       <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
-    
       <category term="双线部署" scheme="http://yongzhi.top/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
     
   </entry>
   
@@ -89,11 +112,11 @@
       <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
+      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
+    
       <category term="软件配置" scheme="http://yongzhi.top/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
     
       <category term="图床" scheme="http://yongzhi.top/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
     
   </entry>
   
