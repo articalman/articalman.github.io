@@ -5,9 +5,9 @@
   <subtitle>信念越强，力量越强！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yongzhi.top/"/>
+  <link href="http://articalman.github.io/"/>
   <updated>2020-03-28T15:24:54.906Z</updated>
-  <id>http://yongzhi.top/</id>
+  <id>http://articalman.github.io/</id>
   
   <author>
     <name>泳之</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>SqlServer 2012安装</title>
-    <link href="http://yongzhi.top/2020/03/02/sql/"/>
-    <id>http://yongzhi.top/2020/03/02/sql/</id>
+    <link href="http://articalman.github.io/2020/03/02/sql/"/>
+    <id>http://articalman.github.io/2020/03/02/sql/</id>
     <published>2020-03-02T14:54:50.000Z</published>
     <updated>2020-03-28T15:24:54.906Z</updated>
     
@@ -36,16 +36,16 @@
     
     
     
-      <category term="sqlServer" scheme="http://yongzhi.top/tags/sqlServer/"/>
+      <category term="sqlServer" scheme="http://articalman.github.io/tags/sqlServer/"/>
     
-      <category term="软件安装配置" scheme="http://yongzhi.top/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+      <category term="软件安装配置" scheme="http://articalman.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客插入bilibili视频</title>
-    <link href="http://yongzhi.top/2020/02/22/video/"/>
-    <id>http://yongzhi.top/2020/02/22/video/</id>
+    <link href="http://articalman.github.io/2020/02/22/video/"/>
+    <id>http://articalman.github.io/2020/02/22/video/</id>
     <published>2020-02-22T03:53:15.000Z</published>
     <updated>2020-05-01T01:16:57.993Z</updated>
     
@@ -60,17 +60,17 @@
     </summary>
     
     
-      <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
+      <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>-Hexo实现github+coding双线部署并开启HTTPS-</title>
-    <link href="http://yongzhi.top/2020/02/07/coding/"/>
-    <id>http://yongzhi.top/2020/02/07/coding/</id>
+    <link href="http://articalman.github.io/2020/02/07/coding/"/>
+    <id>http://articalman.github.io/2020/02/07/coding/</id>
     <published>2020-02-07T14:19:12.000Z</published>
     <updated>2020-04-24T00:52:15.919Z</updated>
     
@@ -83,19 +83,19 @@
     </summary>
     
     
-      <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
+      <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="双线部署" scheme="http://yongzhi.top/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
+      <category term="双线部署" scheme="http://articalman.github.io/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>-Github+Picgo+jsDelivr打造博客图床-</title>
-    <link href="http://yongzhi.top/2020/02/03/picturebed/"/>
-    <id>http://yongzhi.top/2020/02/03/picturebed/</id>
+    <link href="http://articalman.github.io/2020/02/03/picturebed/"/>
+    <id>http://articalman.github.io/2020/02/03/picturebed/</id>
     <published>2020-02-03T06:18:22.000Z</published>
     <updated>2020-04-21T15:05:34.165Z</updated>
     
@@ -111,21 +111,21 @@
     </summary>
     
     
-      <category term="hexo优化" scheme="http://yongzhi.top/categories/hexo%E4%BC%98%E5%8C%96/"/>
+      <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://yongzhi.top/tags/hexo/"/>
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
-      <category term="软件配置" scheme="http://yongzhi.top/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
+      <category term="软件配置" scheme="http://articalman.github.io/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
     
-      <category term="图床" scheme="http://yongzhi.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+      <category term="图床" scheme="http://articalman.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>写在前面</title>
-    <link href="http://yongzhi.top/2020/02/01/conclusion/"/>
-    <id>http://yongzhi.top/2020/02/01/conclusion/</id>
+    <link href="http://articalman.github.io/2020/02/01/conclusion/"/>
+    <id>http://articalman.github.io/2020/02/01/conclusion/</id>
     <published>2020-02-01T03:15:42.000Z</published>
     <updated>2020-03-28T15:08:17.438Z</updated>
     
@@ -142,19 +142,19 @@
     </summary>
     
     
-      <category term="杂谈" scheme="http://yongzhi.top/categories/%E6%9D%82%E8%B0%88/"/>
+      <category term="杂谈" scheme="http://articalman.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-      <category term="随笔" scheme="http://yongzhi.top/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://articalman.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="总结" scheme="http://yongzhi.top/tags/%E6%80%BB%E7%BB%93/"/>
+      <category term="总结" scheme="http://articalman.github.io/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yongzhi.top/2019/09/09/hello-world/"/>
-    <id>http://yongzhi.top/2019/09/09/hello-world/</id>
+    <link href="http://articalman.github.io/2019/09/09/hello-world/"/>
+    <id>http://articalman.github.io/2019/09/09/hello-world/</id>
     <published>2019-09-09T11:23:27.084Z</published>
     <updated>2020-03-28T14:55:29.209Z</updated>
     
@@ -167,10 +167,10 @@
     </summary>
     
     
-      <category term="Hello World" scheme="http://yongzhi.top/categories/Hello-World/"/>
+      <category term="Hello World" scheme="http://articalman.github.io/categories/Hello-World/"/>
     
     
-      <category term="Hello World" scheme="http://yongzhi.top/tags/Hello-World/"/>
+      <category term="Hello World" scheme="http://articalman.github.io/tags/Hello-World/"/>
     
   </entry>
   
