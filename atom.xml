@@ -101,9 +101,9 @@
       <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
-    
       <category term="双线部署" scheme="http://articalman.github.io/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -129,11 +129,11 @@
       <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
+    
       <category term="软件配置" scheme="http://articalman.github.io/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
     
       <category term="图床" scheme="http://articalman.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
   </entry>
   
