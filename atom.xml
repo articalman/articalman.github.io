@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://articalman.github.io/"/>
-  <updated>2020-03-28T15:24:54.906Z</updated>
+  <updated>2021-05-16T08:21:06.082Z</updated>
   <id>http://articalman.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://articalman.github.io/2021/05/16/test/"/>
+    <id>http://articalman.github.io/2021/05/16/test/</id>
+    <published>2021-05-16T08:21:06.000Z</published>
+    <updated>2021-05-16T08:21:06.082Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>SqlServer 2012安装</title>
@@ -86,9 +101,9 @@
       <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="双线部署" scheme="http://articalman.github.io/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
-    
       <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
+    
+      <category term="双线部署" scheme="http://articalman.github.io/tags/%E5%8F%8C%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
@@ -114,11 +129,11 @@
       <category term="hexo优化" scheme="http://articalman.github.io/categories/hexo%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
-    
       <category term="软件配置" scheme="http://articalman.github.io/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
     
       <category term="图床" scheme="http://articalman.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="hexo" scheme="http://articalman.github.io/tags/hexo/"/>
     
   </entry>
   
