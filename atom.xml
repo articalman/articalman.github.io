@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>泳之の博客</title>
+  <title>yongzhiの博客</title>
   
   <subtitle>信念越强，力量越强！</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://articalman.github.io/</id>
   
   <author>
-    <name>泳之</name>
+    <name>yongzhi</name>
     
   </author>
   
